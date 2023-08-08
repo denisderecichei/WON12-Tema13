@@ -1,0 +1,8 @@
+package org.fasttrack.exception;
+
+public class NoActivitiesForDayException extends Exception{
+
+    public NoActivitiesForDayException(String message) {
+        super(message);
+    }
+}
